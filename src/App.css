@@ -1,0 +1,10 @@
+.filed{
+    display: flex;
+}
+.bolded {
+    font-weight: bold;
+    color: red;
+}
+.pageNotFond {
+    color: black;
+}
