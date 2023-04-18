@@ -2,13 +2,7 @@ const user = require("./../models/user")
 
 exports.getAllUsers = async(req,res)=>{
     try {
-        // const u = await user.findById(req.body.id)
-        // if(!u.admin){
-        //     return res.status(401).json({
-        //         success:false,
-        //         message:"who are"
-        //     })
-        // } 
+       
         const result = await user.find()//.select("name","email_id",) // jevdh pahije  tevdhch lihaych name, email, tevdhch pathvel 
         res.json({
             success:true,

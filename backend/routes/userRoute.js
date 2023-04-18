@@ -6,6 +6,5 @@ const router = require("express").Router()
 router
 .get("/", getAllUsers)
 .delete("/destroy", destroyAllusers)
-.get("details/:userId", protected, getAllUsers)
 
 module.exports = router
